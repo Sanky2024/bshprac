@@ -1,4 +1,4 @@
 // Jenkinsfile
-@Library('my-shared-library') _
+@Library('bshprac') _
 
-evenOrOdd(currentBuild.getNumber())
+first(currentBuild.getNumber())
